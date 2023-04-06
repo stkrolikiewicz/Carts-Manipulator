@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Button from '@/Button/Button'
+import Button from '../Button/Button'
 import { useSelector } from 'react-redux'
 import styles from './CartsButton.module.css'
 import { ShoppingCartIcon } from '@heroicons/react/24/solid'

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './CartCard.module.css'
 import { Cart } from '@/models'
-import Button from '@/Button/Button'
+import Button from '../Button/Button'
 import Link from 'next/link'
 import CartsListManager from '@/features/cartsList/cartsList'
 import CartView from '@/views/Cart/Cart'

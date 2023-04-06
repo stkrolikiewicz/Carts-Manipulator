@@ -1,7 +1,7 @@
 import React from 'react'
 import type { RootState } from '../../app/store'
 import { useSelector, useDispatch } from 'react-redux'
-import Button from '@/Button/Button'
+import Button from '@/components/Button/Button'
 import clsx from 'clsx'
 import styles from './cartsList.module.css'
 import { ShoppingCartIcon, TrashIcon } from '@heroicons/react/24/solid'

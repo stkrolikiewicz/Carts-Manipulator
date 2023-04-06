@@ -3,7 +3,7 @@ import styles from './ProductsListItem.module.css'
 import { Product } from '@/models'
 import GridListItem from '../GridListItem/GridListItem'
 import MyPopover from '../MyPopover/MyPopover'
-import Button from '@/Button/Button'
+import Button from '../Button/Button'
 import ProductCard from '../ProductCard/ProductCard'
 import clsx from 'clsx'
 
