@@ -1,5 +1,5 @@
 {
-  "name": "what-the-beer",
+  "name": "carts-manipulator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "clsx": "^1.2.1",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
+    "eslint-plugin-testing-library": "^5.10.2",
     "framer-motion": "^10.10.0",
     "heroicons": "^2.0.17",
     "next": "13.2.4",
