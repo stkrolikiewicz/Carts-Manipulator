@@ -1,0 +1,3 @@
+.container {
+  @apply p-5 border rounded-lg shadow-sm flex flex-col gap-3 items-center justify-center;
+}

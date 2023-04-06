@@ -1,0 +1,14 @@
+.panel {
+  @apply fixed flex z-50 items-center justify-center p-8 w-full max-h-screen h-screen top-0 left-0 bg-black/60 backdrop-blur-none;
+}
+.buttonOutsidePanel {
+  @apply h-full w-full text-left;
+}
+
+.buttonInsidePanel {
+  @apply fixed z-40 w-full h-full top-0 left-0;
+}
+
+.panelContent {
+  @apply z-50 overflow-y-auto scrollbar-hide rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 p-6 m-6 max-h-full;
+}
