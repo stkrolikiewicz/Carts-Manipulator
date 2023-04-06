@@ -8,7 +8,7 @@ type Props = {
   item: Product
 }
 const ProductCard = ({ item }: Props) => {
-  const up = item.discountedPrice > item.price
+  const up = item.discountedPrice < item.price
   return (
     <div className={styles.container}>
       <h3>{item.title}</h3>
