@@ -31,7 +31,7 @@ const Chart = ({ data }: Props) => {
     return {
       name: item.title,
       p: item.price,
-      dp: item.discountedPrice,
+      dp: Number((item.discountedPrice / item.quantity).toFixed(2)),
     }
   })
 
